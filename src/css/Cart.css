@@ -1,0 +1,81 @@
+.cart {
+  display: flex;
+}
+.cartleftside {
+  flex: 1;
+}
+.cart .cartleftside p {
+  display: right;
+}
+.cart .cartleftside .heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  border-bottom: 1px #dfdfdf solid;
+  margin-left: 25px;
+}
+.cart .cartleftside .heading p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.cart .cartrightside {
+  border: 1px #ccc9c9 solid;
+  background: #f3f3f3;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 15px;
+  width: 22%;
+  margin-left: 4%;
+  height: 25%;
+}
+.cart .cartrightside p {
+  font-size: 18px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 3px;
+}
+.cart .cartrightside input {
+  margin-right: 6px;
+}
+.cart .cartrightside label {
+  padding-bottom: 2px;
+  font-size: 14px;
+}
+.cart .cartrightside .btn {
+  display: right;
+  border: 1px #c39c3d solid;
+  margin-bottom: 10px;
+}
+.cart .cartleftside .subtotal {
+  display: flex;
+  float: right;
+  margin-bottom: 20px;
+}
+.footer1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+.footer1 p {
+  margin-bottom: 7px;
+  font-size: 11px;
+}
+.footer1 .conditions {
+  width: 20%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.footer1 .conditions p {
+  font-size: 11px;
+  color: #3689d1;
+  display: flex;
+  margin: auto;
+}
+.footer1 .conditions p:hover {
+  color: rgb(189, 58, 58);
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+.more1 {
+  margin-top: 20px;
+  display: flex;
+  border-top: 1px #dddddd solid;
+}
+.more1 .moresidebar {
+  width: 16%;
+  border-right: 1px lightgray solid;
+}
+.more1 .more1pdts {
+  /* box-sizing: border-box; */
+  overflow: hidden;
+  flex: 1;
+}
+.more1 .more1pdts,
+.morepageimg {
+  margin: auto;
+  width: 97%;
+  border-bottom: 1px #dddddd solid;
+}
+.more1 .more1pdts .morepageimg img {
+  width: 97%;
+  margin: 20px;
+}
+.more1 .more1pdts .morepageproducts {
+  /* border: 1px #dddddd solid; */
+  display: flex;
+  /* position: absolute; */
+  justify-content: space-between;
+  margin: auto;
+  margin: 0px 20px;
+  border-bottom: 2px #dddddd solid;
+}
+.footer1 {
+  margin: auto;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+.footer1 p {
+  margin-bottom: 7px;
+  font-size: 11px;
+}
+.footer1 .conditions {
+  width: 20%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.footer1 .conditions p {
+  font-size: 11px;
+  color: #3689d1;
+  display: flex;
+  margin: auto;
+}
+.footer1 .conditions p:hover {
+  color: rgb(189, 58, 58);
+  text-decoration: underline;
+}

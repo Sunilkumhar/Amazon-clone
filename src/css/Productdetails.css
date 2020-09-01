@@ -1,0 +1,40 @@
+.pdts {
+  background: white;
+  width: 80%;
+  /* margin-top: 20px; */
+  margin: 20px;
+  overflow: hidden;
+}
+.pdts img {
+  padding: 20px 15px;
+}
+.title {
+  color: #609fd8;
+  cursor: pointer;
+}
+.title p:hover {
+  color: #b3353c;
+}
+.owner {
+  font-size: 12px;
+}
+.ships {
+  font-size: 13px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+.price {
+  font-size: 22px;
+}
+.cart {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  margin-right: 15px;
+  margin-bottom: 14px;
+  background: #f2c75f;
+}
+p {
+  padding-left: 15px;
+}

@@ -1,0 +1,98 @@
+.navbar {
+  align-items: center;
+  background: #131921;
+  display: flex;
+  height: 75px;
+}
+.nav-left {
+  display: flex;
+  padding-right: 50px;
+  align-items: center;
+}
+.menuicon {
+  color: white;
+  align-items: center;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 2px;
+  margin: 10px;
+  margin-left: 4px;
+}
+.logo {
+  background: black;
+  width: 120px;
+  height: 45px;
+  color: white;
+  padding-top: 3px;
+  padding-right: 15px;
+}
+.logo:hover {
+  border: 1px white solid;
+}
+.nav-middle {
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-middle p {
+  padding: 5px;
+  margin: 0px;
+}
+.nav-middle input {
+  width: 100%;
+  border: none;
+  outline-width: 0px;
+  /* padding: 10px; */
+}
+.nav-middle .searchicon {
+  color: black;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0px;
+}
+.nav-right {
+  padding-left: 25px;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+.nav-right .signin {
+  padding-top: 3px;
+  padding-right: 17px;
+  padding-left: 10px;
+  color: white;
+}
+.nav-right .signin:hover {
+  text-decoration: none;
+  border: 1px white solid;
+}
+.nav-right .returns {
+  padding-top: 3px;
+  padding-right: 17px;
+  padding-left: 10px;
+  color: white;
+}
+.nav-right .returns:hover {
+  border: 1px white solid;
+}
+.nav-right p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.nav-right .basket {
+  color: white;
+  padding: 15px;
+  display: flex;
+  padding-bottom: 13px;
+}
+.nav-right .basket:hover {
+  border: 1px white solid;
+}

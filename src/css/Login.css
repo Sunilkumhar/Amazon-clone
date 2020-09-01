@@ -1,0 +1,124 @@
+.login {
+  align-items: center;
+}
+.login img {
+  width: 150px;
+  margin: auto;
+  margin-left: 46%;
+}
+.login .logincard {
+  width: 20%;
+  margin: auto;
+  border: 1px #dfdfdf solid;
+  border-radius: 5px;
+}
+.login .logincard p {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.logincard h6 {
+  margin-left: 27px;
+  margin-top: 20px;
+}
+.logincard input {
+  margin-left: 27px;
+  width: 87%;
+  height: 30px;
+  margin-left: 25px;
+}
+.login .logincard .btn {
+  width: 87%;
+  margin: auto;
+  margin-top: 20px;
+}
+.login .terms p {
+  font-size: 12px;
+}
+.login .help {
+  display: flex;
+  align-content: center;
+}
+.login .help i {
+  margin-left: 25px;
+  cursor: pointer;
+}
+.login .help .helpme p {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 8px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.login .help .helpme p:hover {
+  color: #b3353c;
+  text-decoration: underline;
+}
+.login .help p {
+  font-size: 12px;
+}
+.login .new,
+.login .createacc {
+  width: 21%;
+  margin: auto;
+  margin-left: 39%;
+}
+.login .createacc .btn {
+  display: block;
+  margin-top: 13px;
+  width: 97%;
+  margin-left: 4%;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #edeff1;
+  border: 0.5px #a1a1a3 solid;
+}
+.login .createacc p {
+  font-size: 13px;
+}
+.login .new p {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  /* width: 21%; */
+  margin-left: 0%;
+  font-size: 12px;
+  color: #838080;
+  margin-top: 20px;
+}
+.login .new p:before,
+.login .new p:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #eaeaea;
+  margin: auto;
+}
+.login .footer1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+.login .footer1 p {
+  margin-bottom: 7px;
+  font-size: 11px;
+}
+.login .footer1 .conditions {
+  width: 20%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.login .footer1 .conditions p {
+  font-size: 11px;
+  color: #3689d1;
+  display: flex;
+  margin: auto;
+}
+.login .footer1 .conditions p:hover {
+  color: rgb(189, 58, 58);
+  text-decoration: underline;
+}

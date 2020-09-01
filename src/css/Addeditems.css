@@ -1,0 +1,79 @@
+.items {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px lightgray solid;
+  margin-left: 2%;
+}
+.items img {
+  width: 15%;
+  margin: 20px;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+.items .details {
+  width: 70%;
+  margin-top: 20px;
+}
+.items .details h5 {
+  color: #0066c0;
+}
+.items .details h5:hover {
+  color: #b3353c;
+  text-decoration: underline;
+}
+.items .details p {
+  font-size: 12.5px;
+  color: #495e0d;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.items .details .gift {
+  display: flex;
+}
+.items .details .gift input {
+  margin-top: 3px;
+}
+.items .details .gift p {
+  padding-left: 7px;
+  color: black;
+}
+.items .details .gift .learn p {
+  /* padding-left: 7px; */
+  color: #5a81c5;
+}
+.items .details .gift .learn p:hover {
+  color: #b3353c;
+  text-decoration: underline;
+}
+.items .details .x {
+  display: flex;
+  align-content: center;
+}
+.items .details .btn {
+  background: #edeef1;
+  border: 1px #a2a3a8 solid;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 14px;
+}
+.items .details .x p {
+  color: #c0bdbd;
+  margin-top: 5px;
+}
+.items .details .delete p {
+  /* padding-left: 7px; */
+  color: #5a81c5;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.items .details .delete p:hover {
+  color: #b3353c;
+  text-decoration: underline;
+}
+
+.items .rate {
+  margin-top: 20px;
+  display: right;
+  margin-left: 10%;
+}

@@ -1,0 +1,26 @@
+.card12 {
+  width: 100%;
+  background: white;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.card12 h4 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.card12 img {
+  margin-top: 10px;
+  height: 68%;
+  width: 100%;
+}
+.card12 .link {
+  color: #6da7db;
+  cursor: pointer;
+  margin-left: 16px;
+  font-size: 14px;
+  margin-top: 25px;
+  width: 35%;
+}
+.link p:hover {
+  color: #b3353c;
+}

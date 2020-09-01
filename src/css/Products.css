@@ -1,0 +1,67 @@
+.card1 {
+  background-color: black;
+}
+.variousoptions {
+  display: flex;
+  position: absolute;
+  top: 390px;
+  justify-content: space-between;
+  margin: auto;
+  margin: 0px 20px;
+  /* flex: ; */
+  width: 97%;
+  height: 470px;
+}
+.forbetter {
+  width: 100%;
+  background: white;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.forbetter h4 {
+  margin-top: 15px;
+  padding: 15px;
+}
+.forbetter .btn {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #f3cc6c;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.products1 {
+  display: flex;
+  position: absolute;
+  top: 870px;
+  justify-content: space-between;
+  margin: auto;
+  margin: 0px 20px;
+  /* flex: ; */
+  width: 97%;
+}
+.products2 {
+  display: flex;
+  position: absolute;
+  top: 1330px;
+  justify-content: space-between;
+  margin: auto;
+  margin: 0px 20px;
+  /* flex: ; */
+  width: 97%;
+}
+.morepdts {
+  position: relative;
+  top: 1230px;
+  width: 10%;
+  margin: auto;
+}
+.morepdts .btn {
+  background: #ffffff;
+  border: 1px #a2a3a8 solid;
+}
+.morepdts .btn:hover {
+  background: #5c5959;
+  border: 1px #a2a3a8 solid;
+}
