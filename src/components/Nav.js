@@ -6,7 +6,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
-function Nav() {
+function Nav({ cartitems }) {
   return (
     <div className="navbar">
       <div className="nav-left">
@@ -40,15 +40,16 @@ function Nav() {
             <h5>Account & Lists </h5>
           </div>{" "}
         </Link>
-
-        <div className="returns">
-          <p>Returns</p>
-          <h6>& Orders</h6>
-        </div>
+        <Link to="/login" style={{ textDecoration: "none" }}>
+          <div className="returns">
+            <p>Returns</p>
+            <h6>& Orders</h6>
+          </div>
+        </Link>
         <Link to="/cart" style={{ textDecoration: "none" }}>
           <div className="basket">
             <ShoppingCartIcon />
-            <h5>3</h5>
+            <h5>{cartitems.length}</h5>
           </div>
         </Link>
       </div>

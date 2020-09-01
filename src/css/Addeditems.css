@@ -20,6 +20,7 @@
 .items .details h5:hover {
   color: #b3353c;
   text-decoration: underline;
+  cursor: pointer;
 }
 .items .details p {
   font-size: 12.5px;
@@ -70,6 +71,7 @@
 .items .details .delete p:hover {
   color: #b3353c;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .items .rate {

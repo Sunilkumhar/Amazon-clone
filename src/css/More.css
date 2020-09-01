@@ -47,6 +47,7 @@
   display: flex;
   margin: auto;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .footer1 .conditions p {
   font-size: 11px;

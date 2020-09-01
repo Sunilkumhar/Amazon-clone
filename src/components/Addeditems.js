@@ -1,7 +1,10 @@
 import React from "react";
 import "../css/Addeditems.css";
 
-function Addeditems({ src, title, Stock, price }) {
+function Addeditems({ src, title, Stock, price, id, cartitems, setCartitems }) {
+  const removeitem = () => {
+    setCartitems(cartitems.filter((el) => el.id !== id));
+  };
   return (
     <div className="items">
       <img src={src} alt="product" />
@@ -10,7 +13,7 @@ function Addeditems({ src, title, Stock, price }) {
         <p>{Stock}</p>
         <div className="gift">
           <input type="checkbox" />
-          <label for="checkout">
+          <label htmlFor="checkout">
             {" "}
             <p>This is a gift</p>
           </label>
@@ -22,13 +25,13 @@ function Addeditems({ src, title, Stock, price }) {
           <button className="btn">Qty:1</button>
           <p>|</p>
           <div className="delete">
-            <p> Delete </p>
+            <p onClick={removeitem}> Delete </p>
           </div>
           <p>|</p>
         </div>
       </div>
       <div className="rate">
-        <h5>{price}</h5>
+        <h5>${price}</h5>
       </div>
     </div>
   );

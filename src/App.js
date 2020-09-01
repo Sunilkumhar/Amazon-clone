@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./components/Nav";
 import Amazon from "./components/Amazon";
 import Products from "./components/Products";
@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  const [cartitems, setCartitems] = useState([]);
   return (
     <div className="home1">
       <Router>
@@ -18,18 +19,18 @@ function App() {
             <Login />
           </Route>
           <Route path="/cart">
-            <Nav />
-            <Cart />
+            <Nav cartitems={cartitems} />
+            <Cart cartitems={cartitems} setCartitems={setCartitems} />
           </Route>
           <Route path="/more">
-            <Nav />
-            <More />
+            <Nav cartitems={cartitems} />
+            <More cartitems={cartitems} setCartitems={setCartitems} />
           </Route>
           <Route path="/">
             <div className="home">
-              <Nav />
+              <Nav cartitems={cartitems} />
               <Amazon />
-              <Products />
+              <Products cartitems={cartitems} setCartitems={setCartitems} />
               <Footer />
             </div>
           </Route>

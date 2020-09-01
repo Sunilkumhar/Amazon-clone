@@ -68,6 +68,7 @@
   display: flex;
   margin: auto;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .footer1 .conditions p {
   font-size: 11px;
@@ -78,4 +79,28 @@
 .footer1 .conditions p:hover {
   color: rgb(189, 58, 58);
   text-decoration: underline;
+}
+.cart .nothing {
+  display: flex;
+  margin: auto;
+  margin-top: 70px;
+  margin-left: 18%;
+  width: 100%;
+}
+.cart .nothing img {
+  width: 35%;
+}
+.cart .nothing h2 {
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.cart .nothing .buttons {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cart .nothing .buttons .btn {
+  border: 1px #7d7f83 solid;
+}
+.cart .nothing .buttons .shop {
+  background: #eaecef;
 }
