@@ -1,10 +1,10 @@
 .card1 {
-  background-color: black;
+  /* background-color: black; */
 }
 .variousoptions {
   display: flex;
   position: absolute;
-  top: 390px;
+  top: 300px;
   justify-content: space-between;
   margin: auto;
   margin: 0px 20px;
@@ -33,8 +33,8 @@
 
 .products1 {
   display: flex;
-  position: absolute;
-  top: 870px;
+  position: relative;
+  top: 170px;
   justify-content: space-between;
   margin: auto;
   margin: 0px 20px;
@@ -43,8 +43,8 @@
 }
 .products2 {
   display: flex;
-  position: absolute;
-  top: 1330px;
+  position: relative;
+  top: 175px;
   justify-content: space-between;
   margin: auto;
   margin: 0px 20px;
@@ -53,7 +53,7 @@
 }
 .morepdts {
   position: relative;
-  top: 1230px;
+  top: 180px;
   width: 10%;
   margin: auto;
 }
