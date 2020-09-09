@@ -1,4 +1,5 @@
 .home {
   background: #eaeded;
-  height: 2000px;
+  height: 2040px;
+  overflow: hidden;
 }

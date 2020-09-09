@@ -18,7 +18,7 @@ function App() {
   }, []);
   useEffect(() => {
     saveLocalitems();
-    console.log(123);
+    // console.log(123);
   }, [cartitems]);
 
   const saveLocalitems = () => {
@@ -30,7 +30,7 @@ function App() {
     } else {
       let cartlocal = JSON.parse(localStorage.getItem("cart"));
       setCartitems(cartlocal);
-      console.log(cartlocal);
+      // console.log(cartlocal);
     }
   };
 
